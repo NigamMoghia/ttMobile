@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.EmailTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-05T13:02:04" hostname="US95HUTDL033HR3" time="2.212">
+  <properties/>
+  <testcase name="sendEMail" classname="com.EmailTest" time="2.212"/>
+  <system-out><![CDATA[Query formed= Select Status from export_test_tbl_copy where Export_Region = 'Production' and Export_Type like 'PR'
+Col value = pass
+Query formed= Select Message from export_test_tbl_copy where Export_Region = 'Production' and Export_Type like 'PR'
+Col value = Web farms status: All webfarms servers are in sync.
+Select *  from export_test_tbl_copy order by SequenceNo 
+I found what to take out.
+I found what to take out.
+*************************HTML Report *********************
+
+<p style="color:blue"><strong>Web farms status: All webfarms servers are in sync.</strong><p>
+<!DOCTYPE html>
+<html>
+<table>
+<thead> </thead>
+			<style>
+			table, th, td {
+				border: 1px solid #BABABA;
+				border-collapse: collapse;
+			}
+            table {
+			table-layout:auto; 
+			max-width:767px;
+			font-family: arial, sans-serif;
+			}
+            th {
+			style ="color:blue";
+			text-align: left;
+			padding: 8px;
+			word-wrap:break-word;
+			}
+            td {
+			max-width:767px;
+			text-align: left;
+			padding: 8px;
+			}
+			tr:nth-child(even){background-color: #f2f2f2;}
+           
+            .pass, .pass a {
+                color: #04853A;
+            }
+   
+            .fail, .fail a {
+             color: #b60808;
+            }
+            
+           </style><tr>
+<th align="center"; bgcolor="#C2DDF6">Export Region</th>
+<th align="center"; bgcolor="#C2DDF6">Export Type</th>
+<th align="center"; bgcolor="#C2DDF6">Export Folder (Windows)</th>
+<th align="center"; bgcolor="#C2DDF6">Run Duration</th>
+<th align="center"; bgcolor="#C2DDF6">Server</th>
+<th align="center"; bgcolor="#C2DDF6">Publish Folder (Linux)</th>
+<th align="center"; bgcolor="#C2DDF6">Manifest Id</th>
+<th align="center"; bgcolor="#C2DDF6">Published</th>
+<th align="center"; bgcolor="#C2DDF6">Message</th>
+</tr>
+<tr>
+<td class="fail"><a style="color:blue" href="http://alltopics.utdlab.com/contents/practice-changing-updates">Production Nightly</a></td>
+
+<td class="fail">Nightly</td>
+
+<td class="fail">\\edapp05p\utd_export\current_nightly\11571-20221203</td>
+
+<td class="fail">2hrs & 52min</td>
+
+<td class="fail">conbld03p</td>
+
+<td class="fail">/data2/production_nightly/publish/11571-20221203-2145</td>
+
+<td class="fail">11571</td>
+
+<td class="fail"> Yes </td>
+
+<td class="fail"></td>
+</tr>
+<tr>
+<td class="fail"><a style="color:blue" href="http://edprapp0103s.utd.com:8080/contents/practice-changing-updates">Staging PR</a></td>
+
+<td class="fail">PR</td>
+
+<td class="fail">\\edapp0403s\utd_export\current_nightly_pr\11489-20221203</td>
+
+<td class="fail">5hrs & 56min</td>
+
+<td class="fail">conbld0103s</td>
+
+<td class="fail">/data2/staging_nightly_pr/publish/11489-20221203-1930</td>
+
+<td class="fail">11489</td>
+
+<td class="fail"> No </td>
+
+<td class="fail"></td>
+</tr>
+<tr>
+<td class="fail"><a style="color:blue" href="http://edatapp0103s.utd.com:8080/contents/practice-changing-updates">Staging Nightly</a></td>
+
+<td class="fail">Nightly</td>
+
+<td class="fail">\\edapp0403s\utd_export\current_nightly\11490-20221204</td>
+
+<td class="fail">1hrs & 56min</td>
+
+<td class="fail">conbld0103s</td>
+
+<td class="fail">/data2/staging_nightly/publish/11490-20221204-0215</td>
+
+<td class="fail">11490</td>
+
+<td class="fail"> No </td>
+
+<td class="fail"></td>
+</tr>
+<tr>
+<td class="fail"><a style="color:blue" href="http://edprapp01q.utd.com:8080/contents/practice-changing-updates">QA PR</a></td>
+
+<td class="fail">PR</td>
+
+<td class="fail">Not Found</td>
+
+<td class="fail">0hrs & 0min</td>
+
+<td class="fail">conbld01q</td>
+
+<td class="fail">/data2/qa_nightly_pr/publish</td>
+
+<td class="fail"></td>
+
+<td class="fail"> No </td>
+
+<td class="fail"></td>
+</tr>
+<tr>
+<td class="fail"><a style="color:blue" href="http://edatapp01q.utd.com:8080/contents/practice-changing-updates">QA Nightly</a></td>
+
+<td class="fail">Nightly</td>
+
+<td class="fail">Not Found</td>
+
+<td class="fail">0hrs & 0min</td>
+
+<td class="fail">conbld01q</td>
+
+<td class="fail">/data2/qa_nightly/publish</td>
+
+<td class="fail"></td>
+
+<td class="fail"> No </td>
+
+<td class="fail"></td>
+</tr>
+<tr>
+<td class="fail"><a style="color:blue" href="http://edprapp01d.utd.com:8080/contents/practice-changing-updates">Dev PR</a></td>
+
+<td class="fail">PR</td>
+
+<td class="fail">\\edweb01d\utd_export\current_nightly_pr\11580-20221203</td>
+
+<td class="fail">4hrs & 4min</td>
+
+<td class="fail">conbld01q</td>
+
+<td class="fail">/data2/dev_nightly_pr/publish/11580-20221203-2000</td>
+
+<td class="fail">11580</td>
+
+<td class="fail"> No </td>
+
+<td class="fail"></td>
+</tr>
+<tr>
+<td class="fail"><a style="color:blue" href="http://edatapp01d.utd.com:8080/contents/practice-changing-updates">Dev Nightly</a></td>
+
+<td class="fail">Nightly</td>
+
+<td class="fail">\\edweb01d\utd_export\current_nightly\11581-20221204</td>
+
+<td class="fail">2hrs & 10min</td>
+
+<td class="fail">conbld01q</td>
+
+<td class="fail">/data2/dev_nightly/publish/11581-20221204-0035</td>
+
+<td class="fail">11581</td>
+
+<td class="fail"> Yes </td>
+
+<td class="fail"></td>
+</tr>
+<tr>
+<td class="fail">Production</td>
+
+<td class="fail">Sharepoint</td>
+
+<td class="fail">\\edsp02p\\utd_export</td>
+
+<td class="fail">-</td>
+
+<td class="fail">-</td>
+
+<td class="fail">-</td>
+
+<td class="fail">-</td>
+
+<td class="fail">-</td>
+
+<td class="fail"> Folder is not accessible.</td>
+</tr>
+<tr>
+<td class="pass">Staging</td>
+
+<td class="pass">Sharepoint</td>
+
+<td class="pass">\\edsp0203s\\utd_export</td>
+
+<td class="pass">-</td>
+
+<td class="pass">-</td>
+
+<td class="pass">-</td>
+
+<td class="pass">-</td>
+
+<td class="pass">-</td>
+
+<td class="pass">Updated on 12-04-2022</td>
+</tr>
+<tr>
+<td class="pass">Production</td>
+
+<td class="pass">-</td>
+
+<td class="pass">-</td>
+
+<td class="pass">-</td>
+
+<td class="pass">conbld03p</td>
+
+<td class="pass">/data2/buildScript/Editorial</td>
+
+<td class="pass">-</td>
+
+<td class="pass">-</td>
+
+<td class="pass">Updated on 08-31-2022
+</td>
+</tr>
+<tr>
+<td class="pass">Staging</td>
+
+<td class="pass">-</td>
+
+<td class="pass">-</td>
+
+<td class="pass">-</td>
+
+<td class="pass">conbld0103s</td>
+
+<td class="pass">/data2/buildScript/Editorial</td>
+
+<td class="pass">-</td>
+
+<td class="pass">-</td>
+
+<td class="pass">Updated on 12-04-2022
+</td>
+</tr>
+<tr>
+<td class="pass">QA</td>
+
+<td class="pass">-</td>
+
+<td class="pass">-</td>
+
+<td class="pass">-</td>
+
+<td class="pass">conbld01q</td>
+
+<td class="pass">/data2/buildScript/Editorial</td>
+
+<td class="pass">-</td>
+
+<td class="pass">-</td>
+
+<td class="pass">Updated on 12-04-2022
+</td>
+</tr>
+<tr>
+<td class="pass">Production</td>
+
+<td class="pass">PR</td>
+
+<td class="pass"> </td>
+
+<td class="pass">-</td>
+
+<td class="pass">-</td>
+
+<td class="pass">-</td>
+
+<td class="pass">11570.0</td>
+
+<td class="pass">-</td>
+
+<td class="pass">Web farms status: All webfarms servers are in sync.</td>
+</tr>
+</table>
+</table>
+</html>
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

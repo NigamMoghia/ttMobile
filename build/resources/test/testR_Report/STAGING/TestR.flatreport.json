@@ -1,0 +1,38 @@
+{
+  "createdAt": "2017-09-05T08:59:17.7964158-04:00",
+  "timeZone": "(UTC-05:00) Eastern Time (US & Canada)",
+  "testGroup": "TEST1-LABi",
+  "status": "Pass",
+  "buildType": "Nightly",
+  "contentIsPR": false,
+  "machineName": "UTD3286",
+  "buildManifestId": 7435,
+  "statistics": {
+    "topic (en-US)": 113,
+    "graphic (en-US)": 0
+  },
+  "errors": [],
+  "warnings": [],
+  "passes": [
+    {
+      "testName": "LabiSchemaValidationTest",
+      "testDisplayName": "LabI Schema Validation Test",
+      "result": "0 out of 0 OK",
+      "htmlResult": "0 out of 0 OK"
+    }
+  ],
+  "runtimes": [
+    {
+      "testName": "TestR",
+      "testDisplayName": "TestR",
+      "result": "less than a second",
+      "htmlResult": "less than a second"
+    },
+    {
+      "testName": "LabiSchemaValidationTest",
+      "testDisplayName": "LabI Schema Validation Test",
+      "result": "less than a second",
+      "htmlResult": "less than a second"
+    }
+  ]
+}

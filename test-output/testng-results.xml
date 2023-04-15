@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="10" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38886" started-at="2019-06-19T16:58:54Z" finished-at="2019-06-19T16:59:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38886" started-at="2019-06-19T16:58:54Z" finished-at="2019-06-19T16:59:33Z">
+      <class name="com.PollForExportFolderTest">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.PollForExportFolderTest@20e2cbe0]" name="startTest" is-config="true" duration-ms="247" started-at="2019-06-19T12:58:54Z" finished-at="2019-06-19T12:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="ProdSharePoint_ExportTest()[pri:0, instance:com.PollForExportFolderTest@20e2cbe0]" name="ProdSharePoint_ExportTest" duration-ms="790" started-at="2019-06-19T12:58:54Z" finished-at="2019-06-19T12:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProdSharePoint_ExportTest -->
+        <test-method status="PASS" signature="Prod_current_pr()[pri:0, instance:com.PollForExportFolderTest@20e2cbe0]" name="Prod_current_pr" duration-ms="4315" started-at="2019-06-19T12:58:55Z" finished-at="2019-06-19T12:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Prod_current_pr -->
+        <test-method status="PASS" signature="Prod_current_nightly()[pri:0, instance:com.PollForExportFolderTest@20e2cbe0]" name="Prod_current_nightly" duration-ms="4073" started-at="2019-06-19T12:59:00Z" finished-at="2019-06-19T12:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Prod_current_nightly -->
+        <test-method status="PASS" signature="StagingSharePoint_ExportTest()[pri:0, instance:com.PollForExportFolderTest@20e2cbe0]" name="StagingSharePoint_ExportTest" duration-ms="289" started-at="2019-06-19T12:59:04Z" finished-at="2019-06-19T12:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StagingSharePoint_ExportTest -->
+        <test-method status="PASS" signature="Stag_current_pr()[pri:0, instance:com.PollForExportFolderTest@20e2cbe0]" name="Stag_current_pr" duration-ms="5421" started-at="2019-06-19T12:59:04Z" finished-at="2019-06-19T12:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Stag_current_pr -->
+        <test-method status="PASS" signature="Stag_current_nightly()[pri:0, instance:com.PollForExportFolderTest@20e2cbe0]" name="Stag_current_nightly" duration-ms="5845" started-at="2019-06-19T12:59:09Z" finished-at="2019-06-19T12:59:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Stag_current_nightly -->
+        <test-method status="PASS" signature="QA_current_pr()[pri:0, instance:com.PollForExportFolderTest@20e2cbe0]" name="QA_current_pr" duration-ms="10689" started-at="2019-06-19T12:59:15Z" finished-at="2019-06-19T12:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QA_current_pr -->
+        <test-method status="PASS" signature="QA_current_nightly()[pri:0, instance:com.PollForExportFolderTest@20e2cbe0]" name="QA_current_nightly" duration-ms="3914" started-at="2019-06-19T12:59:26Z" finished-at="2019-06-19T12:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QA_current_nightly -->
+        <test-method status="FAIL" signature="Dev_current_pr()[pri:0, instance:com.PollForExportFolderTest@20e2cbe0]" name="Dev_current_pr" duration-ms="2885" started-at="2019-06-19T12:59:30Z" finished-at="2019-06-19T12:59:33Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='new-search-box']/h3"}
+  (Session info: headless chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'UTD04929', ip: '10.2.30.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\DBALAS~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54256}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 9aaac3a1f58757990801fc95169fd97a
+*** Element info: {Using=xpath, value=//div[@class='new-search-box']/h3}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='new-search-box']/h3"}
+  (Session info: headless chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'UTD04929', ip: '10.2.30.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\DBALAS~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54256}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 9aaac3a1f58757990801fc95169fd97a
+*** Element info: {Using=xpath, value=//div[@class='new-search-box']/h3}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.PollForExportFolder.verifyWebPage(PollForExportFolder.java:545)
+	at com.PollForExportFolderTest.Dev_current_pr(PollForExportFolderTest.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dev_current_pr -->
+        <test-method status="FAIL" signature="Dev_current_nightly()[pri:0, instance:com.PollForExportFolderTest@20e2cbe0]" name="Dev_current_nightly" duration-ms="23" started-at="2019-06-19T12:59:33Z" finished-at="2019-06-19T12:59:33Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.PollForExportFolder.findLatestManifest(PollForExportFolder.java:174)
+	at com.PollForExportFolder.didExportRun(PollForExportFolder.java:273)
+	at com.PollForExportFolderTest.Dev_current_nightly(PollForExportFolderTest.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dev_current_nightly -->
+        <test-method status="PASS" signature="EndTest()[pri:0, instance:com.PollForExportFolderTest@20e2cbe0]" name="EndTest" is-config="true" duration-ms="360" started-at="2019-06-19T12:59:33Z" finished-at="2019-06-19T12:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTest -->
+      </class> <!-- com.PollForExportFolderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

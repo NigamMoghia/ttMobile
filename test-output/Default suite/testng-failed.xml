@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.PollForExportFolderTest">
+        <methods>
+          <include name="Dev_current_nightly"/>
+          <include name="startTest"/>
+          <include name="Dev_current_pr"/>
+          <include name="EndTest"/>
+        </methods>
+      </class> <!-- com.PollForExportFolderTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
